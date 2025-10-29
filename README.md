@@ -36,49 +36,7 @@ O objetivo é oferecer uma interface simples, responsiva e funcional para criar,
 
 ---
 
-## 🧩 Estrutura do Projeto
-
-unifique-todo-app/
-│
-├── backend/
-│ ├── app/
-│ │ ├── crud.py
-│ │ ├── database.py
-│ │ ├── main.py
-│ │ ├── models.py
-│ │ ├── schemas.py
-│ │ └── database.db
-│ │
-│ ├── tests/
-│ │ ├── test_tasks.py
-│ │ ├── conftest.py
-│ │ └── init.py
-│ │
-│ ├── requirements.txt
-│ └── Dockerfile
-│
-├── frontend/
-│ ├── public/
-│ │ └── vite.svg
-│ ├── src/
-│ │ ├── assets/
-│ │ ├── components/
-│ │ ├── api.js
-│ │ ├── App.jsx
-│ │ ├── main.jsx
-│ │ └── index.css
-│ │
-│ ├── package.json
-│ ├── tailwind.config.js
-│ └── Dockerfile
-│
-├── docker-compose.yml
-└── README.md
-
-
----
-
-## 🐳 Como Executar com Docker (recomendado)
+## 🐳 Como Executar com Docker
 
 > Certifique-se de ter o **Docker** e o **Docker Compose** instalados em seu sistema.
 
